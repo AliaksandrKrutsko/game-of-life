@@ -69,6 +69,7 @@ public class Grid {
         }
         return liveNeighbourCount;
     }
+
 	// Helper function, returns 1 if the cell at the given coordinate is LIVE, else 0
     private int countLiveNeighboursInCell(final int x, final int y) {
         if (cellIsOutsideBorders(x, y)) {
