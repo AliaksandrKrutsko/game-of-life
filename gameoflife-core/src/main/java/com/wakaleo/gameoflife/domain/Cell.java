@@ -36,7 +36,7 @@ public enum Cell {
         return cellRepresentedBySymbol;
     }
 
-	// Default getter
+	// Default getter 
     public String getSymbol() {
         return symbol;
     }
